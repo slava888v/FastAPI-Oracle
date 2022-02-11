@@ -11,7 +11,10 @@ Once 'HelloWorld' started working, I wanted to experiment with something a bit m
 ## Installing and running in Docker
 Tested on OS X 12.2
 
-**Note:** Requires Python >= 3.8
+### Asumptions
+
+* Python 3.8 or higher is installed
+* Docker is installed
 
 After checking out the repo, in terminal, cd to the project root directory
 
@@ -49,7 +52,9 @@ Goto http://0.0.0.0:80/docs
 ## Installing and running in VirtualEnv (for development)
 Tested on OS X 12.2
 
-**Note:** Requires Python >= 3.8
+### Asumptions
+
+* Python 3.8 or higher is installed
 
 After checking out the repo, in terminal, cd to the project root directory
 
