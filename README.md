@@ -34,7 +34,7 @@ DB_DATABASE=""
 
 Build Docker image using the `Dockerfile.oracle` file
 ```console
-build the docker image:  docker build -f ./Dockerfile.oracle -t FastAPI-Oracle-Image . 
+docker build -f ./Dockerfile.oracle -t FastAPI-Oracle-Image . 
 ```
 
 ### Running the server instance in Docker
@@ -55,7 +55,7 @@ After checking out the repo, in terminal, cd to the project root directory
 
 Create virtual environment for the app
 ```console
-create virtual environment python3 -m venv .
+python3 -m venv .
 ```
 
 Activate the virtual environment
