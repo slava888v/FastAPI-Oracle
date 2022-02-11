@@ -5,9 +5,9 @@ This is a simple Python FastAPI test application that works with an Oracle datab
 
 ## Summary
 The goal of this project was to learn a bit more about FastAPI, SQLAlchemy, Oracle Database and Docker.
-Once 'HelloWorld' started working, I wanted to experiment with something a bit more complex. Specifically, CRUD API which handles Foreign Keys, One-To-One and One-To-Many cascading relationships using SQLAlchemy and Oracle database behind it. Finally, I wanted to run the whole thing from Docker.
+Once 'HelloWorld' started working, I wanted to experiment with something a bit more complex. Specifically, CRUD API which handles Foreign Keys, One-To-One and One-To-Many cascading relationships using SQLAlchemy and Oracle database behind it. Finally, I wanted to run the whole thing in a Docker.
 
-**Note:** This is not a production code and was written for research purposes only.
+<!-- **Note:** This is not a production code and was written for research purposes only. -->
 
 ## Database diagram
 ![Database Diagram](Diagram.jpg?raw=true "Database Diagram")
