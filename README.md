@@ -25,26 +25,17 @@ Tested on OS X 12.2
 
 After checking out the repo, in terminal, cd to the project root directory
 
-### Set database connection configuration
-
-Edit the `.env` file in the project folder
-```console
-emacs .env
-```
-
-By filling in the following variables:
-
-```python
-DB_USERNAME=""
-DB_PASSWORD=""
-DB_HOST=""
-DB_PORT=
-DB_DATABASE=""
-```
-
 Build Docker image using the `Dockerfile.oracle` file
+
+You will need to provide db_username, db_password, db_host, db_port and db_database as arguments when building the Docker
+
 ```console
-docker build -f ./Dockerfile.oracle -t fastapi-oracle-image . 
+docker build -f ./Dockerfile.oracle -t fastapi-oracle-image . \
+--build-arg DB_USERNAME="<db_username>" \
+--build-arg DB_PASSWORD="<db_password>" \
+--build-arg DB_HOST="<db_host>" \
+--build-arg DB_PORT="<db_port>" \
+--build-arg DB_DATABASE="<db_database>"
 ```
 
 ### Running the server instance in Docker
@@ -86,6 +77,9 @@ pip install --no-cache-dir --upgrade -r ./requirements.txt
 ```
 
 ### Set database connection configuration
+
+Rename the `template.env` file to `.env`
+
 Edit the `.env` file in the project folder
 ```console
 emacs .env
