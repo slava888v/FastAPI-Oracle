@@ -58,6 +58,7 @@ Tested on OS X 12.2
 ### Asumptions
 
 * Python 3.8 or higher is installed
+* Oracle client libraries are installed. These can be downloaded from: https://www.oracle.com/database/technologies/instant-client.html
 
 After checking out the repo, in terminal, cd to the project root directory
 
@@ -79,6 +80,9 @@ pip install --no-cache-dir --upgrade -r ./requirements.txt
 ### Set database connection configuration
 
 Rename the `template.env` file to `.env`
+```console
+mv template.env .env
+```
 
 Edit the `.env` file in the project folder
 ```console
