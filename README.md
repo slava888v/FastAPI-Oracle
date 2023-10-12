@@ -64,12 +64,12 @@ After checking out the repo, in terminal, cd to the project root directory
 
 Create virtual environment for the app
 ```console
-python3 -m venv .
+python3 -m venv .venv
 ```
 
 Activate the virtual environment
 ```console
-source ./bin/activate
+source .venv/bin/activate
 ```
 
 Install required packages from `properties.txt`
